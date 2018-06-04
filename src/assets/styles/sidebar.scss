@@ -1,9 +1,3 @@
-/*
-Template Name: Material Pro Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
 
 $mini-sidebar-width: 80px;
 /*******************
@@ -21,7 +15,7 @@ mat-sidenav {
         &:hover{
             background: none;
         }
-        
+
         .mat-list-item-content{
             display: block;
             padding: 0px 15px;
@@ -32,7 +26,7 @@ mat-sidenav {
                 }
             }
         }
-        
+
         a{
             height: 45px;
             padding: 0 10px;
@@ -60,7 +54,7 @@ mat-sidenav {
             background: $themecolor-alt;
             border-radius: $radius;
             color:$white;
-            
+
             mat-icon{
                 color:$white;
             }
@@ -68,12 +62,12 @@ mat-sidenav {
                 -webkit-transform: rotate(-180deg);
                 transform: rotate(-180deg);
             }
-            
+
         }
         &.selected .sub-item .mat-list-item-content a.selected{
             background: transparent;
             color:$inverse;
-            font-weight: 500;               
+            font-weight: 500;
         }
     }
     .sub-item{
@@ -96,7 +90,7 @@ mat-sidenav {
     .selected{
        .sub-item{
         display: block;
-        } 
+        }
     }
 }
 /*******************
@@ -104,10 +98,10 @@ use profile section
 ******************/
 
 .user-profile {
-    
+
     position: relative;
     background-size:cover;
-    
+
     .profile-img {
         width: 50px;
         margin-left: 30px;
@@ -189,11 +183,11 @@ use profile section
             }
         }
     }
-    
+
 }
 
-/*============================================================== 
- Small Desktop & above all (1024px) 
+/*==============================================================
+ Small Desktop & above all (1024px)
  ============================================================== */
 
 @media(min-width:1024px) {
@@ -232,7 +226,7 @@ use profile section
             padding-right: 0;
             padding-left: 0;
             text-align: center;
-              
+
           }
           .mat-list-item > .mat-list-item-content > a > span:not(.menu-badge),
           .mat-list-item > .mat-list-item-content > a > .menu-caret {

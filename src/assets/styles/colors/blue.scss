@@ -1,9 +1,3 @@
-/*
-Template Name: Material Pro Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
 
 @include mat-core();
 $blue-app-primary: mat-palette($mat-indigo, 600);
@@ -15,7 +9,7 @@ $themecolor:#1E88E5;
 $themecolor-alt: #1E88E5;
 $white:#fff;
 .blue #snav {
-    .mat-list-item { 
+    .mat-list-item {
         .mat-list-item-content {
             &:hover {
                 > a {

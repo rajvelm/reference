@@ -1,9 +1,3 @@
-/*
-Template Name: Material Pro Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
 /**
  * Table Of Content
  *
@@ -35,25 +29,24 @@ File: scss
 
 // Red Theme
 @import 'colors/red';
-.danger {  
+.danger {
   @include angular-material-theme($red-app-theme);
 }
 
 // Blue Theme
 @import 'colors/blue';
-.blue {  
+.blue {
   @include angular-material-theme($blue-app-theme);
 }
 
 // Green Theme
 @import 'colors/green';
-.green {  
+.green {
   @include angular-material-theme($green-app-theme);
 }
 
 // Dark Theme
 @import 'colors/dark';
-.dark {  
-  @include angular-material-theme($dark-theme); 
+.dark {
+  @include angular-material-theme($dark-theme);
 }
-  

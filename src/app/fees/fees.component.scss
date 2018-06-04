@@ -7,8 +7,9 @@ md-calendar {
 .datatable > div,
 .datatable.fixed-header .datatable-header .datatable-header-inner {
   height: 100%;
+  font-size: larger;
 }
 
-span.datatable-header-cell-label {
-  font-size: 18px;
+.datatable-header-cell{
+  font-size:16px;
 }

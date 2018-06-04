@@ -1,9 +1,4 @@
-/*
-Template Name: Material Pro Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
+
 @include mat-core();
 $dark-primary: mat-palette($mat-blue);
 $dark-accent:  mat-palette($mat-indigo, A200, A100, A400);
@@ -19,7 +14,7 @@ $light: #505050;
 $inverse:#424242;
 $border:rgba(0, 0, 0, 0.12);
 html body {
-.dark{ 
+.dark{
     /* This is for the navigation*/
      #snav {
         .mat-list-item {
@@ -47,7 +42,7 @@ html body {
     }
     .ql-snow .ql-stroke{
         stroke:$white;
-        
+
     }
     .ql-snow .ql-fill{
         fill:$white;
