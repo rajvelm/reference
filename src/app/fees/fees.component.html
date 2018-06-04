@@ -1,0 +1,41 @@
+<mat-card>
+  <mat-card-content>
+    <div fxLayout="row" fxLayoutWrap="wrap">
+      <div fxFlex.gt-sm="10" fxFlex.gt-xs="10" fxFlex="100">
+        <mat-card-title>Fees</mat-card-title>
+      </div>
+      <div fxFlex.gt-sm="19.9" fxFlex.gt-xs="19.9" fxFlex="100">
+        <mat-form-field>
+          <mat-select placeholder="Month" [(value)] ="selectedMonth">
+            <mat-option value ="May 2018">May 2018</mat-option>
+            <mat-option value ="Apr 2018">Apr 2018</mat-option>
+            <mat-option value ="Mar 2018">Mar 2018</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div fxFlex.gt-sm="70" fxFlex.gt-xs="70" fxFlex="100" style="text-align:right">
+        <button mat-button color="primary">Upload Excel</button>
+        <button mat-button color="success">Download Excel</button>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>
+
+<mat-card>
+  <mat-card-content>
+    <mat-form-field>
+      <input matInput  type='text' class="form-control"  placeholder='Filter' (keyup)='updateFilter($event)'   />
+    </mat-form-field>
+    <ngx-datatable style="background-color:#ffffff"
+    #table
+    class='material'
+    [columns]="columns"
+    [columnMode]="'force'"
+    [headerHeight]="50"
+    [footerHeight]="50"
+    [rowHeight]="'auto'"
+    [limit]="10"
+    [rows]='rows'>
+  </ngx-datatable>
+</mat-card-content>
+</mat-card>

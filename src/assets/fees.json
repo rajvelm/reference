@@ -1,0 +1,128 @@
+[
+    {
+        "exchange": "Chicago Mercantile Exchange",
+        "dataTimeliness": "Real Time",
+        "feeType": "Professional",
+        "currency": "USD",
+        "fee": "20.00"
+    },
+    {
+        "exchange": "ICE",
+        "dataTimeliness": "Delayed",
+        "feeType": "Professional",
+        "currency": "USD",
+        "fee": "18.00"
+    },
+    {
+        "exchange": "Eurex",
+        "dataTimeliness": "Real Time",
+        "feeType": "Professional",
+        "currency": "GBB",
+        "fee": "10.00"
+    },
+    {
+        "exchange": "Chicago Mercantile Exchange",
+        "dataTimeliness": "Real Time",
+        "feeType": "Professional",
+        "currency": "USD",
+        "fee": "20.00"
+    },
+    {
+        "exchange": "ICE",
+        "dataTimeliness": "Delayed",
+        "feeType": "Professional",
+        "currency": "USD",
+        "fee": "18.00"
+    },
+    {
+        "exchange": "Eurex",
+        "dataTimeliness": "Real Time",
+        "feeType": "Professional",
+        "currency": "GBB",
+        "fee": "10.00"
+    },
+    {
+        "exchange": "Chicago Mercantile Exchange",
+        "dataTimeliness": "Real Time",
+        "feeType": "Professional",
+        "currency": "USD",
+        "fee": "20.00"
+    },
+    {
+        "exchange": "ICE",
+        "dataTimeliness": "Delayed",
+        "feeType": "Professional",
+        "currency": "USD",
+        "fee": "18.00"
+    },
+    {
+        "exchange": "Eurex",
+        "dataTimeliness": "Real Time",
+        "feeType": "Professional",
+        "currency": "GBB",
+        "fee": "10.00"
+    },
+    {
+        "exchange": "Chicago Mercantile Exchange",
+        "dataTimeliness": "Real Time",
+        "feeType": "Professional",
+        "currency": "USD",
+        "fee": "20.00"
+    },
+    {
+        "exchange": "ICE",
+        "dataTimeliness": "Delayed",
+        "feeType": "Professional",
+        "currency": "USD",
+        "fee": "18.00"
+    },
+    {
+        "exchange": "Eurex",
+        "dataTimeliness": "Real Time",
+        "feeType": "Professional",
+        "currency": "GBB",
+        "fee": "10.00"
+    },
+    {
+        "exchange": "Chicago Mercantile Exchange",
+        "dataTimeliness": "Real Time",
+        "feeType": "Professional",
+        "currency": "USD",
+        "fee": "20.00"
+    },
+    {
+        "exchange": "ICE",
+        "dataTimeliness": "Delayed",
+        "feeType": "Professional",
+        "currency": "USD",
+        "fee": "18.00"
+    },
+    {
+        "exchange": "Eurex",
+        "dataTimeliness": "Real Time",
+        "feeType": "Professional",
+        "currency": "GBB",
+        "fee": "10.00"
+    },
+    {
+        "exchange": "Chicago Mercantile Exchange",
+        "dataTimeliness": "Real Time",
+        "feeType": "Professional",
+        "currency": "USD",
+        "fee": "20.00"
+    },
+    {
+        "exchange": "ICE",
+        "dataTimeliness": "Delayed",
+        "feeType": "Professional",
+        "currency": "USD",
+        "fee": "18.00"
+    },
+    {
+        "exchange": "Eurex",
+        "dataTimeliness": "Real Time",
+        "feeType": "Professional",
+        "currency": "GBB",
+        "fee": "25.00"
+    }
+]
